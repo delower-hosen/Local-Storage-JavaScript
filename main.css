@@ -1,0 +1,58 @@
+input[type=text], button {
+    padding: 7px;
+    height: 40px;
+}
+
+input[class=up] {
+    height: 10px;
+}
+button[id=btnR],button[id=btnEdit] {
+    height: 20px;
+    font-size: 10px;
+    text-align: initial;
+}
+input[id=updateField] {
+    height: 10px;
+    text-align: initial;
+}
+
+button {
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    margin-right: 5px;
+    border-radius: 4px;
+    font-size: 13px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: goldenrod;
+}
+
+fieldset {
+    margin: auto;
+    margin-top: 20px;
+    width: 800px;
+    display: block;
+    background-color:#CCC;
+}
+
+.Leg {
+    color: chocolate;
+}
+
+::placeholder {
+    opacity: 0.5;
+}
+
+:placeholder-shown {
+    border:  2px solid lightcoral;
+    background-color: azure;
+}
+
+#lsOutput {
+    color: black;
+}
