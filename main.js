@@ -94,6 +94,8 @@ function f() {
     }
 }
 
+
+
 function handleRemove(cb, index, objIndex){
     const key = localStorage.key(index);
     console.log("key="+key);
